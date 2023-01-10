@@ -40,15 +40,7 @@ body {
 .fa-react {
     color: #2D9FBD;
 }
-.fa-git-alt {
-    color: orangered;
-}
-.fa-php {
-    color: #7175AA;
-}
-.fa-node-js {
-    color: #7CC327;
-}
+
 
 /* ===== header ===== */
 .header {
@@ -284,8 +276,65 @@ body {
     text-align: start;
     font-size: 40px;
 }
-/* ===== works ===== */
 
+/* ===== works ===== */
+.works {
+    width: 100%;
+    margin-top: 10px;
+}
+.works__container {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px 5px 0px 0px;
+    text-align: start;
+    background-color: #111111;
+}
+.works__heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: whitesmoke;
+}
+.works__service {
+    
+}
+.works__heading--h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: whitesmoke;
+}
+.works__cards {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.works__card {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.work__img {
+    width: 100%;
+    height: 200px;
+}
+.works__heading--h3 {
+    color: whitesmoke;
+}
+.works__heading--h5 {
+    color: grey;
+}
+.works__paragraph {
+    color: grey;
+}
+.works__skills {
+    text-align: start;
+    font-size: 30px;
+}
 
 
 /* ===== footer ===== */
