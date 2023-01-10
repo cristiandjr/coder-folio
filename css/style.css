@@ -1,0 +1,269 @@
+/* ===== fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ===== reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== global ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fa-facebook {
+    color: #3B5998;
+}
+.fa-linkedin{
+    color: #0E76A8;
+}
+.fa-youtube {
+    color: #C4302B;
+}
+.fa-envelope {
+    color: rgb(224, 224, 173);
+}
+
+/* ===== header ===== */
+.header {
+    width: 100%;
+    padding: 20px;
+}
+.header .header__container  {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.header__container .header__logo{
+
+}
+.header__container .header__logo img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.header__container .header__links {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 15px;
+    list-style: none;
+}
+.header__container .header__links .header__btn {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.header__container .header__links .header__link {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: grey;
+    transition: background .3s ease;
+}
+.header__container .header__links .header__link:hover {
+    background: linear-gradient(90.4deg, rgb(32, 121, 128) 0.6%, rgb(9, 145, 155) 90%);
+}
+
+/* ===== home ===== */
+main {
+    width: 100%;
+    margin-top: 10px;
+}
+.main__container {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    background-color: #111111;
+}
+.main__container .main__photo img {
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.main__container .main__heading {
+    padding: 5px;
+    font-size: 44px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+.main__container .main__heading--h2 {
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: grey;
+}
+.main__container .main__networks{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 40px;
+}
+.main__container .main__button {
+    padding: 25px;
+}
+.main__container .main__button button{
+    width: 15%;
+    height: 50px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: .3s ease-in-out;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.main__container .main__button button:hover{
+    background: linear-gradient(90.4deg, rgb(32, 121, 128) 0.6%, rgb(9, 145, 155) 90%);
+}
+
+/* ===== about ===== */
+.about {
+    width: 100%;
+    margin-top: 10px;
+}
+.about__container {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    background-color: #111111;
+}
+.about__container .about__content {
+    display: flex;
+    gap: 15px;
+}
+.about__content .about__photo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.about__content .about__text p {
+    text-align: left;
+    color: grey;
+}
+.about__heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: whitesmoke;
+}
+.about__heading--h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: whitesmoke;
+}
+.about__info {
+    margin-top: 10px;
+}
+.about__info--content {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.about__info--content p {
+    font-size: 18px;
+}
+.about__service {
+
+}
+.about__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.about__card {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.about__heading--h3 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.about__card .about__card--icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.about__card p {
+    margin-left: 45px;
+    text-align: left;
+    color: grey;    
+}
+
+/* ===== resume ===== */
+.resume {
+    width: 100%;
+    margin-top: 10px;
+}
+.resume__container {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    background-color: #111111;
+}
+.resume__heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: whitesmoke;
+}
+.resume__service {
+    display: flex;
+    justify-content: space-between;
+}
+.resume__heading--h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: whitesmoke;
+}
+.resume__cards {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.resume__card {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+/* ===== footer ===== */
+footer {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #010101;
+    padding: 5px;
+
+}
+footer p {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
