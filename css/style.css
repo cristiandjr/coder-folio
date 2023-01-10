@@ -28,6 +28,27 @@ body {
 .fa-envelope {
     color: rgb(224, 224, 173);
 }
+.fa-html5 {
+    color: orangered; 
+}
+.fa-css3-alt {
+    color: #2D9FBD;
+}
+.fa-js {
+    color: yellow;
+}
+.fa-react {
+    color: #2D9FBD;
+}
+.fa-git-alt {
+    color: orangered;
+}
+.fa-php {
+    color: #7175AA;
+}
+.fa-node-js {
+    color: #7CC327;
+}
 
 /* ===== header ===== */
 .header {
@@ -76,7 +97,7 @@ body {
 }
 
 /* ===== home ===== */
-main {
+.main {
     width: 100%;
     margin-top: 10px;
 }
@@ -250,6 +271,22 @@ main {
     border: 1px solid grey;
     border-radius: 5px;
 }
+.resume__paragraph--date {
+    color: grey;
+}
+.resume__heading--h3 {
+    color: whitesmoke;
+}
+.resume__paragraph {
+    color: grey;
+}
+.resume__skills--icons {
+    text-align: start;
+    font-size: 40px;
+}
+/* ===== works ===== */
+
+
 
 /* ===== footer ===== */
 footer {
