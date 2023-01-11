@@ -11,10 +11,10 @@
 /* ===== global ===== */
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #111111;
     background-image: url(../img/bg.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 /* ===== icon colors ===== */
@@ -45,7 +45,6 @@ body {
 .fa-location-dot {
     color: tomato;
 }
-
 
 /* ===== header ===== */
 .header {
@@ -123,19 +122,17 @@ body {
     letter-spacing: 2px;
     color: grey;
 }
-.home__networks{
+.home__networks {
     padding: 5px;
     display: flex;
     justify-content: center;
-    gap: 25px;
     font-size: 40px;
 }
 .home__button {
     padding: 25px;
 }
 .home__button .home__btn{
-    width: 15%;
-    height: 50px;
+    padding: 20px;
     background-color: grey;
     color: white;
     border-radius: 5px;
@@ -172,7 +169,7 @@ body {
     height: 320px;
     border-radius: 5px;
 }
-.about__text p {
+.about__text .about__paragraph {
     text-align: left;
     color: grey;
 }
@@ -245,7 +242,7 @@ body {
     text-align: left;
     color: whitesmoke;
 }
-.resume__service {
+.resume__content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -326,8 +323,9 @@ body {
 .works__heading--h3 {
     color: whitesmoke;
 }
-.works__heading--h5 {
+.works__links {
     color: grey;
+    text-decoration: none;
 }
 .works__paragraph {
     color: grey;
@@ -440,8 +438,6 @@ body {
 }
 
 /* ===== footer ===== */
-
-
 .footer {
     width: 100%;
 }
